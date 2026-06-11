@@ -1,0 +1,23 @@
+[project]
+name = "data-cleaning-modules"
+version = "0.1.0"
+description = "동아리 데이터 정제 + 분류 학습 노트북 라이브러리"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas==2.2.2", # Colab 환경과 동일하게 고정 (학생 실행 환경 일치)
+    "numpy==2.0.2", # Colab 환경과 동일하게 고정
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "torch",
+    "chardet",
+    "koreanize-matplotlib",
+    "jupyter",
+    "ipykernel",
+    "nbconvert",
+    "nbclient",
+]
+
+[tool.uv]
+package = false
